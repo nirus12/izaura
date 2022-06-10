@@ -1,0 +1,98 @@
+/*pág toda*/
+
+footer{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  width: 960px;
+  margin: 0 auto;
+  
+}
+
+#headerr{
+  height: 20px;
+  padding: 25px;
+  
+}
+
+#headerr div {
+  float: left;
+  font-weight: 700;
+  font-size: 25px;
+  background-color: #4fb9ff;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#headerr div span {
+  color: #e776a5;
+  
+}
+
+#headerr nav {
+  float: right;
+}
+
+#headerr nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #e776a5;
+  width: 100px;
+  text-align: right;
+  height: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#headerr nav a:hover {
+  background-color: #4fb9ff;
+}
+
+
+
+
+
+
+/*Formulário*/
+.tudo{
+  margin: 0 auto;
+  width: 500px;
+}
+
+.contato{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 200px;
+  font-family:'Times New Roman', Times, serif;
+  border-style: dashed;
+  
+}
+
+
+
+.contatoehorario{
+text-align: center;
+}
+.contato textarea { 
+  resize: none;
+
+}
+
+.envioo {
+  background-color: rgb(255, 145, 213);
+  width: 80px;
+  border-radius: 20px 20px;
+  border: 1px;
+
+}
+
+.pagina{
+ 
+  background-color: rgb(255, 241, 236);
+  
+}
+
+
+/*INDEX*/

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="pagina">
+    <header>
+        <section id="headerr" class="alinhar">
+            <div>Transportadora de imóveis</div>
+            <nav>
+                <a href="index.html" target="_blank">Início</a>
+                <a href="apresentações.html" target="_blank">Apresentações</a>
+                <a href="formulário.html" target="_blank">Formulário</a>
+            </nav>
+        </section>
+    </header>
+
+    <section>
+        <form action="XX" method="post">
+            <fieldset class="contato">
+                <legend>contato</legend>
+                <br>
+                <label class="tit" for="nome">NOME:</label> <br>
+                <input type="text" name="NomeTut" id="nomeTut" size="50px" required placeholder="Nome ou apelido" />
+                <br><br>
+                <label class="tit" for="dataNascimento">Data nascimento:</label> <br>
+                <input type="date" name="dataNascimento" id="dataNascimento" placeholder=" XX/XX/XX" /> <br><br>
+        
+                <label class="tit" for="nome">Dúvidas?</label> <br>
+                <textarea name="descricaoArquivo" cols="50" rows="6" id="descricaoArquivo" ></textarea>
+                <br><br>
+                
+                <label class="tit" for="nome">Já teve experiência conosco?</label> <br>
+                <input type="checkbox" name="experiencia" id="exp" /><label for="experiencia">Sim</label>
+                <input type="checkbox" name="experiencia" id="exp" /><label for="experiencia">Não</label>
+                <br><br><br>
+                <input class="envioo" name="btnEnvio" type="submit" value="Enviar" />
+                
+
+                &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+                <input  class="envioo" name="btnReset" type="reset" value="Limpar" />
+            </fieldset>
+        </form>
+    </section>
+   
+        <section class="contatoehorario">
+            <h1>Contato</h1>
+            <p>(11)96739-5187 </p>
+            <p>trasnportimóveis@gmail.com</p>
+        </section>
+
+        <section class="contatoehorario">
+            <h1>Horário de funcionamento:</h1>
+            <p>8h00 às 18h00</p>
+        </section>
+
+       
+        <footer>
+            <small>&copy; Izaura Vitória Silva - RGM - 29467101</small>
+        </footer>
+</body>
+</html>
